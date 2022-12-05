@@ -2328,7 +2328,7 @@ export class LedgerContract extends SmartContract {
   }
 }
 ```
-Jika sudah silahkan pindahkan 3 file yang sudah di edit tadi ke folder build/src dan file dengan akhiran .test.ts dihapus saja. 
+Jika sudah silahkan pindahkan 3 file yang sudah di edit tadi ke folder src dan file dengan akhiran .test.ts dihapus saja. 
 
 edit index.ts ganti dengan script beriku
 ```
