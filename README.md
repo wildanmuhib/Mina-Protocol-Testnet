@@ -2329,6 +2329,23 @@ export class LedgerContract extends SmartContract {
 }
 ```
 Jika sudah silahkan pindahkan 3 file yang sudah di edit tadi ke folder build/src dan file dengan akhiran .test.ts dihapus saja. 
+
+## Konfigurasi zk
+```
+zk config
+```
+isi dengan ini
+Nama:berkeley
+URL: https://proxy.berkeley.minaexplorer.com/graphql
+Biaya:0.1
+
+Jika sudah salin link faucet dari outputnya dan paste di chrome. Tunggu beberapa menit untuk memastikan faucet sudah masuk.
+Kemudian Deploy
+```
+zk deploy berkeley
+```
+Enter
+
 Jika sudah silahkan run 
 ```
 npm run build 
