@@ -2336,9 +2336,9 @@ export { LedgerContract };
 zk config
 ```
 isi dengan ini
-Nama:berkeley
-URL: https://proxy.berkeley.minaexplorer.com/graphql
-Biaya:0.1
+1. Nama: berkeley
+2. URL: https://proxy.berkeley.minaexplorer.com/graphql
+3. Biaya: 0.1
 
 Jika sudah salin link faucet dari outputnya dan paste di chrome. Tunggu beberapa menit untuk memastikan faucet sudah masuk.
 Kemudian Deploy
