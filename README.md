@@ -1833,11 +1833,9 @@ rm src/Add.ts
 rm src/Add.test.ts
 rm src/interact.ts
 ```
-Buat file baru
-```
-zk file src/BasicMerkleTreeContract
-```
-kemudian jika kalian menggunakan vscode buka file BasicMerkleTreeContract.ts pada folder src/src/BasicMerkleTreeContract.ts dan isi dengan script berikut
+Buat file baru di folder src klik kanan aja new file beri nama BasicMerkleTreeContract.ts
+
+kemudian buka file BasicMerkleTreeContract.ts isi dengan script berikut
 ```
 import {
   Field,
@@ -1894,10 +1892,8 @@ export class BasicMerkleTreeContract extends SmartContract {
 }
 
 ```
-Jika sudah silahkan save. Ctrl + s. kembali ke terminal dan buat file baru lagi
-```
-zk file src/main
-```
+Jika sudah silahkan save. Ctrl + s. Buat lagi file baru klik kanan pada folder src new file beri nama main.ts
+
 Buka file main.ts kemudian ganti/isi dengan script berikut.
 ```
 
@@ -2227,10 +2223,8 @@ async function main() {
 
 main();
 ```
-save dan buat file baru lagi
-```
-zk file src/LedgerContract
-```
+save dan buat file baru lagi dengan nama LedgerContract.ts
+
 Buka file LedgerContract.ts dan isi dengan script berikut
 ```
 import {
@@ -2328,9 +2322,9 @@ export class LedgerContract extends SmartContract {
   }
 }
 ```
-Jika sudah silahkan pindahkan 3 file yang sudah di edit tadi ke folder src dan file dengan akhiran .test.ts dihapus saja. 
+# Pastikan ketiga file tersebut berada di folder src bukan di src/src. jika berada pada folder src/src pindahkan ke src. 
 
-edit index.ts ganti dengan script beriku
+edit index.ts ganti dengan script berikut
 ```
 import { LedgerContract } from './LedgerContract.js';
 
@@ -2355,6 +2349,7 @@ Enter
 kemudian buka file keys/berkeley.json
 
 Silahkan kalian simpan dan import wallet ke auro wallet. setelah itu copy address nya dan scan di mina scan untuk mendapatkan hash verificationKey nya.. 
+
 
 ## Cara Uninstal Semua (Jika Pengen Menghapus)
 
