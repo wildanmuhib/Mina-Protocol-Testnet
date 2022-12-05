@@ -2345,13 +2345,9 @@ Kemudian Deploy
 zk deploy berkeley
 ```
 Enter
+kemudian buka file keys/berkeley.json
 
-Jika sudah silahkan run 
-```
-npm run build 
-node build/src/main.js
-```
-Setelah run nanti akan keluar private key dan public key nya. Silahkan kalian simpan dan import wallet ke auro wallet. setelah itu copy address nya dan scan di mina scan untuk mendapatkan hash verificationKey nya.. 
+Silahkan kalian simpan dan import wallet ke auro wallet. setelah itu copy address nya dan scan di mina scan untuk mendapatkan hash verificationKey nya.. 
 
 ## Cara Uninstal Semua (Jika Pengen Menghapus)
 
