@@ -1797,6 +1797,8 @@ Lalu hapus semua isinya dan ganti dengan ini
 
 ```
 cd 04-zkapp-browser-ui/ui/
+```
+```
 npm run deploy
 ```
 
@@ -1821,6 +1823,8 @@ Jika ada Output Error Seperti Ini Abaikan Dan Tunggu Hingga Proses Selesai :
 ```
 cd ..
 zk project 05-common-types-and-functions
+```
+```
 cd 05-common-types-and-functions
 ```
 hapus beberapa file
@@ -2330,7 +2334,7 @@ Jika sudah silahkan run
 npm run build 
 node build/src/main.js
 ```
-
+Setelah run nanti akan keluar private key dan public key nya. Silahkan kalian simpan dan import wallet ke auro wallet. setelah itu copy address nya dan scan di mina scan untuk mendapatkan hash verificationKey nya.. 
 
 ## Cara Uninstal Semua (Jika Pengen Menghapus)
 
