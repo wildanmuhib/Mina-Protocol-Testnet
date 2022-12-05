@@ -2330,6 +2330,13 @@ export class LedgerContract extends SmartContract {
 ```
 Jika sudah silahkan pindahkan 3 file yang sudah di edit tadi ke folder build/src dan file dengan akhiran .test.ts dihapus saja. 
 
+edit index.ts ganti dengan script beriku
+```
+import { LedgerContract } from './LedgerContract.js';
+
+export { LedgerContract };
+```
+
 ## Konfigurasi zk
 ```
 zk config
